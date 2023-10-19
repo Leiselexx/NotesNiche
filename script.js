@@ -126,7 +126,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const loadingAnimation = document.getElementById("loading-animation");
     
     // Set a delay (in milliseconds) before hiding the loading animation
-    const delayInMilliseconds = 800; // 3 seconds
+    const delayInMilliseconds = 1500; // 3 seconds
 
     setTimeout(function() {
         loadingAnimation.style.display = "none"; // Hide the loading animation
