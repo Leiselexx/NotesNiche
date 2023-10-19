@@ -657,7 +657,6 @@ div.desc {
 
 .spinner1 {
   align-self: center;
-  border: 2px solid black;
   background-color: peru;
   border-radius: 100%;
   width: 10px;
@@ -670,7 +669,6 @@ div.desc {
 .spinner2 {
   align-self: center;
   background-color: peru;
-  border: 2px solid black;
   border-radius: 100%;
   width: 10px;
   height: 10px;
@@ -683,7 +681,6 @@ div.desc {
 .spinner3 {
   align-self: center;
   background-color: peru;
-  border: 2px solid black;
   border-radius: 100%;
   width: 10px;
   height: 10px;
