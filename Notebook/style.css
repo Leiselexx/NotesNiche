@@ -1,0 +1,25 @@
+.notebook {
+    background-color: #e4c9b6;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; /* Rounded corners to make it square-like */
+    display: inline-block;
+    width: 250px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.notebook-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.notebook button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

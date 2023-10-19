@@ -1,0 +1,100 @@
+
+
+
+.signIn {   
+    background-color: #F8E9DD;   
+    width: 15%;       
+    margin: 10px 0px;     
+    cursor: pointer;   
+}   
+
+form {    
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}  
+
+.login input[type=text], input[type=password] {   
+    width: 30%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 1px solid black;   
+    box-sizing: border-box;  
+    align-items: center; 
+    border-radius: 20px;
+}  
+
+.signIn:hover {   
+    border: 2px solid peru;
+}   
+  
+           
+.login {   
+    padding: 0px;   
+    background-color: #fce7d9;  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.conts{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .forgot{
+    text-decoration: none;
+    margin-left: 150px;
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.forgot:hover{
+    color: peru;
+    text-decoration: underline;
+}
+
+
+
+
+form h1 {
+    font-family: 'Montserrat';
+}
+
+
+div.login a.create {
+    text-align: center;
+    color: black;
+    align-content: center;
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+
+.login .create:hover{
+    color: peru;
+}
+
+.login button{
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat';
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    background: black;
+    margin: auto;
+    
+}
+
+
+

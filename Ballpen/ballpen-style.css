@@ -1,0 +1,25 @@
+.ballpen {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; /* Rounded corners to make it square-like */
+    display: inline-block;
+    width: 250px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.ballpen-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ballpen button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

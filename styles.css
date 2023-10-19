@@ -1,0 +1,730 @@
+header{
+  background: #fccdae;
+  padding: 0px;
+  height: 20px;
+  width: 100%;
+}
+
+header .icons{
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.border{
+  border-bottom: 1px solid #fccdae;
+  width: 100%;
+}
+
+
+body{
+
+  margin: auto;
+  padding: auto;
+  width: 100%;
+}
+h1{
+  margin: 0;
+  padding: 0; 
+  align-items: center;
+  font-style: 
+}
+
+/*///////////////////////////*/
+
+/* Add styles for search container and results */
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#searchInput {
+    width: 250px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/*////////////////////////*/
+
+.container{
+  max-width: 100%;
+  
+}
+
+
+.container .head{
+  display: flex;
+  align-items: ;
+  
+  margin: auto;
+  padding: 0 5%;
+}
+.head{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  height: 55px;
+  border-bottom: 1px solid #fccdae;
+  padding-top: 10px;
+  width: 100%;
+
+
+}
+.head .searchbar {
+  
+  margin-left: -30px;
+  
+}
+
+.head a img{
+  margin: 0 auto;
+  margin-top: -30px;
+  display: block;
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%); 
+  width: 150px;
+  height: auto;
+
+
+}
+
+.head .headButtons{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  
+}
+
+.head .headButtons a{
+  margin: 20px;
+  color: black;
+}
+
+
+.head h1{
+  text-align: center;
+  width: 100%;
+  height: 30px; 
+}
+
+.head input[type=text] {
+  float:left;
+  font-size: 12px;
+  border: none;
+  height: 25px;
+  color: #92ad94;
+  margin-left: 10px;
+}
+
+.head button {
+  float: left;
+  width: 10%;
+  background: white;
+  color: black;
+  padding: 0px;;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.head i{
+  font-size: 25px;
+}
+
+.head i:hover{
+  color: peru;
+}
+
+
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  background-color: white;
+  max-width: 300px;
+  text-align: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  margin: auto;
+  font-family: 'Montserrat';
+  letter-spacing: 1px;
+   position: relative; /* Add relative positioning to the links */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  
+  
+  text-decoration: underline;
+  color: peru;
+}
+
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}
+
+
+/* Style the dropdown button */
+
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+
+    
+
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  z-index: 1;
+  float: none; /* Remove float to stack items vertically */
+  display: block;
+  color: black;
+  text-align: left; /* Adjust text alignment as needed */
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  border-bottom: 1px solid #ddd; /* Add a separator between items */
+  background-color: white;
+
+
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+   background-color: #fce7d9;
+   color: peru;
+   text-decoration: none;
+
+   
+
+}
+
+/* Show the dropdown content when the button is clicked */
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    top: 120px;
+  
+      
+
+}
+
+
+
+
+
+
+/* Style the "active" element to highlight the current page */
+/*.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+  transition: transform 1s;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+ 
+}
+
+
+
+.mySlides img{
+  
+  max-width: 100%;
+  transition: transform 1s;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-align: center;
+  color: #fccdae;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: peru;
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fccdae;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: peru;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.container .feat{
+  margin-left: 50px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  
+}
+
+div.gallery {
+  border: 1px solid left; 
+  max-width: 100%;
+  justify-content: space-between;
+  margin-left: 30px;
+  justify-content: space-between;
+  min-height: 300px;
+
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  min-height: 300px;
+  max-height: 300px;
+  max-width: 100px;
+  min-width: 100px;
+  gap: 100px;
+  
+
+}
+
+.gallery .item:hover{
+  text-decoration: none;
+  color: peru;
+}
+
+.gallery p{
+  font-family: 'Montserrat';
+  margin: auto;
+}
+
+.gallery .item p{
+  margin-top: 10px; /* Adjust the top margin to add spacing above the text */
+  margin-bottom: -100px; /* Adjust the bottom margin to add spacing below the text */
+}
+
+
+div.gallery img {
+  max-width: 100%;
+  min-width: 200px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+   transition: transform 0.2s;
+   border-radius: 10%;
+}
+
+.gallery img:hover{
+   transform: scale(1.1);
+}
+
+.gallery button{
+  margin-top: -100px;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  background-color:  black;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  border: none;
+  color: white;
+  border: 2px solid black;
+}
+
+.gallery button:hover{
+  border: 2px solid peru;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  grid-gap: 20px; 
+  text-align: center; 
+  max-width: 100%;
+  margin: auto;
+  max-height: 100%;
+  background-color: #f8f3e8;
+  width: 100%;
+  height: 150%;
+  padding: 6%;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    }
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.p{
+  text-align: center;
+  width: 60%;
+  margin-right: 45px;
+}
+
+
+/*//////////////////////////////////////*/
+
+.seperator{
+  border: 0.5px solid #fccdae;
+  width: 100%;
+}
+
+/*/////////////////////////////////////*/
+
+.minibanner{
+  display: flex;
+  justify-content: center;
+}
+.minibanner img{
+  width: 350px;
+  margin: auto;
+}
+
+
+
+
+/* ///////////////////////////////////// */
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa-instagram {
+    color: black;
+  padding: 20px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  
+
+}
+
+.txtContainer .icons a:hover{
+  color: peru;
+}
+
+
+.footer{
+  width: 100%;
+  align-items: center;
+  background: #fccdae;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.footer .txtContainer{
+  display: grid;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+  align-content: center;
+  grid-template-rows: repeat(auto-fill, minmax(20px, 2fr)); 
+  grid-gap: 10px; 
+  text-align: center; 
+
+}
+
+.txtContainer .icons{
+  display: flex;
+  margin: auto;
+  margin-top: -20px;
+  
+  }
+
+.txtContainer .notes {
+  width: 300px;
+  align-self: center;
+  font-family: 'elegant';
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+.txtContainer .lgs{
+  width: 300px;
+  font-family: 'simpletix';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.footer p {
+  width: 80%;
+  margin: auto;
+
+}
+
+.footerdesc{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.footerdesc img
+{
+  
+  width: 150px;
+
+}
+
+
+.footerdesc .paragraph {
+  border-top: 2px solid black;
+  padding-top: 30px;
+  width: 90%;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Montserrat';
+
+}
+
+
+/*///////////////////////////////////*/
+
+#loading-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+     transform: translate(-50%, -50%); /* This line will do the trick */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    flex-direction: row;
+   
+
+}
+.spinner1 {
+  align-self: center;
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  /* Add the following CSS to make the 3 dots move up and down simultaneously */
+  animation: bounce1 1s ease-in-out infinite;
+}
+
+.spinner2 {
+  align-self: center;
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+
+  /* Add the following CSS to make the 3 dots move up and down simultaneously */
+  animation: bounce2 1s ease-in-out infinite;
+}
+
+.spinner3 {
+  align-self: center;
+  border: 2px solid black;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+
+  /* Add the following CSS to make the 3 dots move up and down simultaneously */
+  animation: bounce3 1s ease-in-out infinite;
+}
+
+@keyframes bounce1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes bounce2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce3 {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+
+
+
+
+
+
+

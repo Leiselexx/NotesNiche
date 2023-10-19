@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'simpletix'; /* Choose a name for your font */
+  src: url("fonts/simpletix.otf") format('opentype');
+  /* Add more formats if necessary, using the same pattern */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'elegant'; /* Choose a name for your font */
+  src: url("fonts/elegantDEMO.ttf") format('truetype');
+  /* Add more formats if necessary, using the same pattern */
+  font-weight: normal;
+  font-style: normal;
+}

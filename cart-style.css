@@ -1,0 +1,212 @@
+
+td.price:before{
+	content: "P";
+}
+.box{
+	background-color: #fce7d9;
+	width: 85%;
+	margin: auto;
+	box-shadow: black;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	max-width: 800px;
+	min-width: 700px;
+
+
+}
+
+.product{
+	height: 100px;
+	width: auto;
+}
+
+.product img{
+	width: 80px;
+	height: auto;
+}
+
+table {
+	margin-top: 20px;
+    border-collapse: collapse; 
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.tableClass{
+	padding: 30px;
+
+	background-color: white;
+	position: relative;
+	max-width: 70%;
+	height: 60%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+
+
+
+
+td {
+	padding: 10px;
+    text-align: center;
+   margin: auto;
+   align-items: center;
+   align-content: center;
+   vertical-align: middle;
+   font-family: 'Montserrat';
+   font-size: 12px;
+}
+
+td .product{
+	font-weight: bold ;
+	font-family: 'simpletix';
+
+}
+
+.tableH{
+	
+
+}
+
+.tableH td
+{
+	font-size: 10px;
+	color: gray;
+	border-bottom: 1px solid #fce7d9;
+	height: 10px;
+}
+
+
+td {
+    margin-top: -10px;
+    margin: 30px;
+    text-align: left; /* Align cell text to the left */
+}
+
+button.check-out {
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat';
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    background: black;
+    margin-left: 5%; /* Adjust the margin for the checkout button */
+}
+
+a button:hover{
+
+	border: 2px solid peru;
+}
+
+.note{
+	font-family: 'Montserrat';
+	font-size: 12px;
+	padding: 20px;
+	padding-bottom: 50px;
+	width: 300px;
+	height: auto;
+	margin-right: auto;
+}
+
+.note input{
+	width: 300px;
+	height: 40px;
+	background-color: white;
+	border-radius: 20px;
+	border-color: #fce7d9;
+	padding: 10px;
+	font-style: italic;
+	border: 2px solid #fce7d9;
+}
+
+.total .border{
+	border-top: 3px solid black;
+	width: 200px;
+	margin-bottom: 30px;
+}
+
+.total{
+	
+	font-family: 'Montserrat';
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-content: center;
+	align-items: center;
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+
+.tax {
+	margin-top: 0px;
+	font-size: 10px;
+	font-family: 'Montserrat';
+	color: gray;
+}
+
+.cartTotal:after{
+	content: " P599.00";
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.terms{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.termsLink{
+	font-family: cursive;
+	color: peru;
+	text-decoration: none;
+}
+
+.termsLink:hover{
+	text-decoration: underline;
+}
+
+.quantity {
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+
+.quantity:focus {
+  outline: none;
+  border-color: #fce7d9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.trash i{
+	color: black;
+	font-size: 10px;
+	cursor: pointer;
+
+}
+
+.trash i:hover{
+
+	color: peru;
+
+}
+
+
+
