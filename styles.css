@@ -161,6 +161,7 @@ h1{
   display: flex;
   justify-content: center;
 
+
 }
 
 /* Style the links inside the navigation bar */
@@ -180,10 +181,9 @@ h1{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  
-  
   text-decoration: underline;
   color: peru;
+
 }
 
 .topnav a.active {
@@ -203,9 +203,9 @@ h1{
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
     z-index: 1;
 
-    
 
 }
+
 
 /* Style the links inside the dropdown */
 .dropdown-content a {
@@ -219,6 +219,7 @@ h1{
   font-size: 13px;
   border-bottom: 1px solid #ddd; /* Add a separator between items */
   background-color: white;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
 
 
 }
@@ -229,8 +230,6 @@ h1{
    color: peru;
    text-decoration: none;
 
-   
-
 }
 
 /* Show the dropdown content when the button is clicked */
@@ -240,11 +239,19 @@ h1{
     position: absolute;
     width: 100px;
     top: 120px;
-  
-      
+    animation: drop 0.3s ease-in-out;
 
 }
 
+@keyframes drop{
+  0% {
+    opacity: 10%;
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 
 
 
@@ -363,8 +370,8 @@ h1{
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  0%{opacity: 20%;}
+  
 }
 
 .container .feat{
