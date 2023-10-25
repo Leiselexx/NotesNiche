@@ -49,9 +49,9 @@ form {
     flex-direction: column;
 }
 
-.login .forgot{
+form .forgot{
     text-decoration: none;
-    margin-left: 150px;
+    margin-left: 20%;
     font-family: 'Montserrat';
     color: black;
     font-size: 12px;
