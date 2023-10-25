@@ -68,6 +68,7 @@ form {
 
 form h1 {
     font-family: 'Montserrat';
+    color: #664229;
 }
 
 
@@ -91,7 +92,7 @@ div.login a.create {
     border-radius: 30px;
     border: none;
     width: 100px;
-    background: black;
+    background: #664229;;
     margin: auto;
     
 }

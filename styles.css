@@ -6,7 +6,6 @@ header{
 }
 
 header .icons{
-  
   display: flex;
   flex-direction: row;
 }
@@ -378,6 +377,7 @@ h1{
   margin-left: 50px;
   font-family: 'Montserrat';
   font-size: 20px;
+  color: #664229;
   
 }
 
@@ -440,13 +440,13 @@ div.gallery img {
   margin-top: -100px;
   padding: 10px 20px; 
   border-radius: 20px; 
-  background-color:  black;
+  background-color:  #664229;
   font-size: 12px;
   font-family: 'Montserrat';
   cursor: pointer;
   border: none;
   color: white;
-  border: 2px solid black;
+  border: 2px solid #664229;
 }
 
 .gallery button:hover{
@@ -524,6 +524,18 @@ div.desc {
 }
 
 /* Set a specific color for each brand */
+
+.fa-search{
+  color: #664229;
+}
+
+.fa-user{
+  color: #664229;
+}
+
+.fa-bag-shopping{
+  color: #664229;
+}
 
 /* Facebook */
 .fa-facebook {

@@ -100,7 +100,7 @@ button.check-out {
     border-radius: 30px;
     border: none;
     width: 100px;
-    background: black;
+    background: #664229;
     margin-left: 5%; /* Adjust the margin for the checkout button */
 }
 
@@ -131,9 +131,10 @@ a button:hover{
 }
 
 .total .border{
-	border-top: 3px solid black;
+	border-top: 3px solid #664229;
 	width: 200px;
 	margin-bottom: 30px;
+
 }
 
 .total{
@@ -161,6 +162,7 @@ a button:hover{
 	font-family: 'Montserrat';
 	font-weight: bold;
 	font-size: 15px;
+	color: #664229;
 }
 
 .terms{
@@ -196,7 +198,7 @@ a button:hover{
 }
 
 .trash i{
-	color: black;
+	color: #664229;
 	font-size: 10px;
 	cursor: pointer;
 
