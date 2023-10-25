@@ -26,6 +26,7 @@ td.price:before{
 .product img{
 	width: 80px;
 	height: auto;
+	border-radius: 10%;
 }
 
 table {

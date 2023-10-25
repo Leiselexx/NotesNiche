@@ -596,6 +596,11 @@ div.desc {
 
 }
 
+.footer .txtContainer .copyright{
+  font-family: 'Montserrat';
+  font-size: 12px;
+}
+
 .txtContainer .icons{
   display: flex;
   margin: auto;
