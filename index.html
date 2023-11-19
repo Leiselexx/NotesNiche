@@ -11,108 +11,132 @@
 	<script src="https://kit.fontawesome.com/65ea6cfc19.js" crossorigin="anonymous"></script>
 	
 </head>
-<header>
-	
-</header>
 
-<body>
+<!-- header -->
+<div class="head">
+			<div class="searchbar">
+				<button id="searchButton" type="submit"> <i class="fa fa-search"></i></button>
 
-	<div id="loading-animation">
-        <div class="spinner1"></div>
-        <div class="spinner2"></div>
-        <div class="spinner3"></div>
-    </div>
+				<input type="text" id="searchInput" placeholder="Search">
+			</div>
+
+			<a href="index.html"> <img src="images/logo.png" class = "logo"> </a>
+
+			<div class = "headButtons">
+				<a href="profile.html"><i class="fa fa-user"></i></a>
+				<a href="cart.html"><i class="fa fa-bag-shopping"></i></a>
+			</div>
+
+</div>
+
+<br>
+
+<div class="topnav">
+            <div class="dropdown">
+                <a class="dropbtn">STATIONARY</a>
+                <div class="dropdown-content">
+                    <a href="notebooks.html">Notebooks</a>
+                    <a href="notepads.html">Notepads</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <a class="dropbtn">WRITING</a>
+                <div class="dropdown-content">
+                    <a href="ballpens.html">Ballpens</a>
+                    <a href="pencils.html">Pencils</a>
+                </div>
+            </div>          
+            
+            <div class="dropdown">
+                <a class="dropbtn">ACCESSORIES</a>
+                <div class="dropdown-content">
+                    <a href="calendar-page.html">Calendars</a>
+                    <a href="Pencil-cases.html">Pencil Cases</a>
+                </div>
+            </div> 
 
 
-	<div class ="container">
-		<div id="header-placeholder"> </div>
 
+        </div>
+
+        <br>
+
+        <div class="border">  </div>
+
+<br>
+<br>
+
+
+<!-- body for products -->
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+<!-- delete lang ya br -->
+
+
+
+<!-- footer -->
+<div class="seperator"> </div>
+
+		
+	<div class="minibanner">
+
+		<img src="images/delivery.png">
+		<img src="images/discount.png">
+
+		
+	</div>
 
 		
 
-		<div class="slideshow-container">		
-			<div class="mySlides fade">
-				<div class="numbertext">1 / 2</div>
-				<img src="images/banner1.png" class="slide">		
-			</div>
+<div class="clearfix"></div>
 
-			<div class="mySlides fade">
-				<div class="numbertext">2 / 2</div>
-				<img src="images/banner2.png" class="slide">
-				
-			</div>
 
-		  	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
-		</div>
-
+<div class="footer">
+		<br>
 		<br>
 
-		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span>
-		  <span class="dot" onclick="currentSlide(2)"></span>
+		<div class="txtContainer">
+			<p class="lgs">LET'S GET SOCIAL!</p>
+			<p class="notes">@notesniche</p>
+
+			<div class="icons">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+			</div>
+
+			<p class="copyright"> Copyright © 2023 NotesNiche </p>
 		</div>
 
-		<div class="feat">
-			<p>FEATURED ITEMS</p>
-		</div>
 
+		<div class="footerdesc">
+			<br>
+			<img src="images/logo.png">
+
+			<div class="paragraph"> 
+			<p>Welcome to NotesNiche, a haven for stationery enthusiasts founded in 2023 by a group of friends
+		united by their passion for all things paper and pen. Born out of a shared love for creativity and
+		organization, our stationery shop is a vibrant hub where functionality meets style.</p>
 		<br>
+		 	<p>At NotesNiche, we believe that the right stationery can transform the ordinary into the extraordinary.
+		Our carefully curated collection reflects our dedication to quality, uniqueness, and the joy that comes
+		with expressing oneself through the art of writing and design.</p>
+		<br>
+		<p>Join us on this exciting adventure, explore the endless possibilities that stationery offers and
+		discover the simple pleasures of putting pen to paper. At NotesNiche, we're not just selling stationery:
+		we're celebrating the beauty of the written word and the joy of thoughtful, handwritten gestures. Thank
+		you for being a part of our story.</p>
 
-		<div class="responsive" id ="searchResults">
 
-			<div class="gallery">
-				<div class="item">
-				    <img src="images/img1.jpg" alt="Northern Lights" width="600" height="400">
-				  <p>Pink Pen Set</p>
-			 	</div>
-			  <p class="calendar-price"> P99.00 </p>
-                <button> Add to Cart </button>
-			</div>
-
-			<div class="gallery">
-				<div class="item">
-				    <img src="Notebook/Floral Print Cover Notebook.png" alt="Northern Lights" width="600" height="400">
-				  <p> Floral Print Notebook</p>
-			 	</div>
-			  <p class="calendar-price"> P109.00 </p>
-                <button> Add to Cart </button>
-			</div>
-
-			<div class="gallery">
-				<div class="item">
-				    <img src="Notepads/Memo Pad (1).png" alt="Northern Lights" width="600" height="400">
-				  <p>Memo Pad</p>
-			 	</div>
-			  <p class="calendar-price"> P59.00 </p>
-                <button> Add to Cart </button>
-			</div>
-
-			<div class="gallery">
-				<div class="item">
-				    <img src="Pencil Case/PencilCase1.png" alt="Northern Lights" width="600" height="400">
-				  <p>Clear Pencil Case</p>
-			 	</div>
-			  <p class="calendar-price"> P190.00 </p>
-                <button> Add to Cart </button>
-			</div>
-
-			<div class="gallery">
-				<div class="item">
-				    <img src="Notebook/Minimalist Notebook (1).png" alt="Northern Lights" width="600" height="400">
-				  <p>Floral Notebook</p>
-			 	</div>
-			  <p class="calendar-price"> P150.00 </p>
-                <button> Add to Cart </button>
-			</div>
-
-			
 		</div>
-		
-		<div id="footer-placeholder"></div>
+		<br>
 
 
 	</div>
-	<script src="script.js"></script>
-	</body>
-</html>
